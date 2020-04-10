@@ -1,0 +1,7 @@
+{
+  "builds": [
+      {"src": "index.html", "use": "@now/static"},
+      {"src": "frontend/*.*", "use": "@now/static"},    
+      {"src": "backend/*.rs", "use": "now-rust"}
+  ]
+}
