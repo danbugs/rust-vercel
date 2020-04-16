@@ -1,10 +1,14 @@
 [package]
 name = "rustweet"
-version = "0.1.0"
-authors = ["Dan Chiarlone <danilochiarlone@gmail.com>"]
+version = "0.2.0"
+authors = [ "Dan Chiarlone <danilochiarlone@gmail.com>" ]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
 http = "0.1"
 now_lambda = "*"
+postgres = "0.17.2"
+
+[[bin]]
+name = "index"
+path = "/Users/carol/Documents/code/rust/rustweet/backend/index.rs"

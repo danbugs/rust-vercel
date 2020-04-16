@@ -1,7 +1,7 @@
 let button = document.querySelector('button#rust-request');
 
 button.addEventListener('click', () => {
-    let server = 'https://rustweet.now.sh/backend/index.rs'
+    let server = 'backend/index.rs'
     fetch(server, {
         method: 'GET',
         headers: {
